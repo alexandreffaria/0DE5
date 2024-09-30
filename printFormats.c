@@ -26,6 +26,8 @@ int main(){
 		printf(" %c \n", bytes[i]);
 
 	}
+	bytes[5] = 0b0;
+	printf("\n%s\n", bytes);
 	return 0;
 
 }
